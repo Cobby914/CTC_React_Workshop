@@ -8,8 +8,8 @@ Help students get comfortable building **stateless React components** using **Ch
 ## 🚀 Getting Started
 
 ```bash
-yarn install
-yarn dev
+npm install
+npm run dev
 ```
 
 ## 🧩 Practice Assignment

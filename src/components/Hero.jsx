@@ -1,6 +1,6 @@
 import { Box, Heading, Text, Button, Stack } from "@chakra-ui/react";
 
-const Hero = () => {
+const Hero = ({ onStartAssignment }) => {
   return (
     <Box textAlign="left">
       <Stack spacing={4}>
@@ -13,8 +13,16 @@ const Hero = () => {
           components together.
         </Text>
         <Stack direction={["column", "row"]} spacing={3}>
-          <Button colorScheme="teal">See Components</Button>
-          <Button variant="outline" colorScheme="teal">
+          <Button
+            as="a"
+            href="https://chakra-ui.com/docs/components/concepts/overview"
+            target="_blank"
+            rel="noopener noreferrer"
+            colorScheme="teal"
+          >
+            See Components
+          </Button>
+          <Button variant="outline" colorScheme="teal" onClick={onStartAssignment}>
             Start Assignment
           </Button>
         </Stack>

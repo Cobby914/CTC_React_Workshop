@@ -8,10 +8,10 @@ const HeaderSection = () => {
     <Box>
       {/* Replace this with your header content */}
       <Heading size="lg" mb={2}>
-        {/* Your Name Here */}
+        First Name
       </Heading>
       <Text fontSize="sm" color="gray.600">
-        {/* A short intro about you */}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </Text>
     </Box>
   );

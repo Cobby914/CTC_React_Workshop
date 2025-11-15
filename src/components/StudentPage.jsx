@@ -10,7 +10,7 @@ import HighlightSection from "./HighlightSection";
 // to build a complete "About Me" page.
 const StudentPage = () => {
   return (
-    <Box mt={16}>
+    <Box>
       <Stack spacing={10}>
         <HeaderSection />
         <SkillsSection />
